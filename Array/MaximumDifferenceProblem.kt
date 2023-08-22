@@ -60,7 +60,6 @@ fun main() {
     )
 }
 
-// 3,4 10,4,8 5
 fun findMaximumDifference(array: Array<Int>): Int {
     var minValue = array[0]
     var result = array[1] - array[0]
